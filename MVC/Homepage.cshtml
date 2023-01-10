@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewBag.Title = "Homepage";
+}
+<style>
+
+    #background {
+        background-image: url('../../image/crops.jpg');
+        background-position: inherit;
+        background-repeat: no-repeat;
+        background-size: 100% 216%
+    }
+
+    #text_homePage {
+        font-family: cursive;
+    }
+</style>
+
+<body id="background">
+    <div>
+        <h1 id="Booking_Heading" style="font-family: cursive; font-weight: bold; text-decoration: underline;">Crop Deal </h1>
+
+    </div>
+
+
+    <div>
+        <h2 id="text_homePage"> Buy  Fresh crops directly from Farmers with best price and quality. </h2>
+        <h2 id="text_homePage">
+            <table>
+                <tr>
+                    <td>
+                        Click here to @Html.ActionLink("Login.", "LoginUser")
+                    </td>
+                    <td>&nbsp;</td>
+                    <td>If No Account @Html.ActionLink("Register", "RegisterUser") with us.</td>
+                </tr>
+            </table>
+            <div style="padding-left: 100%; padding-top: 50px; color: red;">
+                </div>
+            </div>
+</body>
